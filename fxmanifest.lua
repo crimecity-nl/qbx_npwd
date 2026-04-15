@@ -6,7 +6,7 @@ version '1.0.0'
 repository 'https://github.com/Qbox-Project/qbx_npwd'
 
 shared_scripts {
-    '@ox_lib/init.lua',
+    '@cc_lib/init.lua',
     'config.lua'
 }
 

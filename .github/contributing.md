@@ -68,7 +68,7 @@ Below are conventions that you must follow when contributing code.
 - Prefer creating local variables over global ones.
 - Don't repeat yourself. If you're using the same operations in multiple different places convert them into a flexible function.
 - Exported functions must be properly annotated (see [LuaLS Annotations](https://luals.github.io/wiki/annotations/)).
-- Utilize [ox_lib](https://coxdocs.dev/ox_lib) to make your life easier. Prefer lib calls over native ones.
+- Utilize [cc_lib](https://coxdocs.dev/cc_lib) to make your life easier. Prefer lib calls over native ones.
 - Make use of config options where it makes sense to make features optional and/or customizable. Configs should not be modified by other code.
 
 #### Optimization & Security
